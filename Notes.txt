@@ -1,0 +1,9 @@
+basic approach using PCA:
+
+treat each meter reading as a vector, and each point's history as an NxM matrix (reshape)
+
+total data points are 8760
+
+###reshape to 94x94 matrix, with padding total size is 8836### (Maybe?)
+
+mean normalize the data
